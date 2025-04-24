@@ -9,7 +9,7 @@ public class ConexionBD {
     
     private static final String URL = "jdbc:mysql://localhost:3306/app_mi_familia";
     private static final String USUARIO = "root";
-    private static final String CONTRASENA = "Andres-0712"; // si tienes clave, ponla aquí
+    private static final String CONTRASENA = "Andres-0712"; 
 
     public static Connection conectar() {
         Connection conexion = null;
